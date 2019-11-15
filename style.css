@@ -44,10 +44,10 @@ header#masthead span.contact-link,
     color: #FFF !important;
 }
 
-.header-topbar {
-    border-bottom-color: #5d5d5d;
-    padding: 8px;
-}
+/*.header-topbar {*/
+    /*border-bottom-color: #5d5d5d;*/
+    /*padding: 8px;*/
+/*}*/
 
 .small-header .header-main {
     padding: 10px 0;
@@ -56,7 +56,8 @@ header#masthead span.contact-link,
 .header-main {
     border-top-color: black;
     transition: all .5s ease-in-out;
-    border-bottom: 10px solid #ffbf19;
+    border-bottom: 5px solid #ffbf19;
+    border-top: 5px solid #ffbf19;
 }
 
 span.contact-link {}
@@ -93,7 +94,7 @@ header#masthead.sticky-head #sticky-header-container {
 
 header#masthead select#product_cat,
 button.main-search-submit {
-    color: #FFF;
+    color: #ffbf19;
 }
 
 header#masthead select#product_cat option {
